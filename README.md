@@ -2,9 +2,9 @@
 This is a personal Discord bot
 
 # Dependencies
-`Python 3.6`
+`Python 3.6` REQUIRED
 
-`FFmpeg` to be able to run music
+`FFmpeg` (OPTIONAL) to be able to run music
 
 # Installation
 this will install all python modules automatically
