@@ -1,6 +1,8 @@
 # MrKio Discord
 This is a personal Discord bot
 
+https://img.shields.io/discord/578509348364484608.svg
+
 # Dependencies
 `Python 3.6` REQUIRED
 
