@@ -11,3 +11,6 @@ this will install all python modules automatically
 ```bash
 pip install -r requirements.txt
 ```
+
+# Configuration
+Get a token string for your bot from by registering your bot here: https://discordapp.com/developers 
