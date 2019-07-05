@@ -14,3 +14,5 @@ pip install -r requirements.txt
 
 # Configuration
 Get a token string for your bot from by registering your bot here: https://discordapp.com/developers 
+
+You will need bot's client ID to invite it your server you can generate your own invite using this website https://discordapi.com/permissions.html
