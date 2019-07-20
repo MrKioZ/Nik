@@ -1,0 +1,18 @@
+EMBED THINGS:
+----------------
+    embed.setAuthor
+    embed.setColor
+    embed.setDescription
+    embed.setFooter
+    embed.setImage
+    embed.setThumbnail
+    embed.setTimestamp
+    embed.setTitle
+    embed.setURL
+    embed.addBlankField
+    embed.addField
+----------------
+
+Images:
+ArconicMC Logo
+(https://cdn.discordapp.com/attachments/574904056905203747/600526614899720202/banner-222497.gif)

@@ -1,0 +1,17 @@
+{
+  "name": "nikv2",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "djs-commands": "^1.2.2",
+    "random-puppy": "^1.1.0",
+    "snekfetch": "^4.0.4"
+  }
+}
