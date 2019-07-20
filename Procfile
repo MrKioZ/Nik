@@ -1,1 +1,1 @@
-  worker: python MrKio.py
+  worker: python main.py
