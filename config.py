@@ -1,4 +1,4 @@
-TOKEN = 'your_bot_token'
+TOKEN = os.environ.get('TOKEN')
 
 Owner_ID = 324786471678771200
 
