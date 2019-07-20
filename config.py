@@ -1,4 +1,4 @@
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.getenv('TOKEN')
 
 Owner_ID = 324786471678771200
 
