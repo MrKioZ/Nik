@@ -1,6 +1,9 @@
 import os
 TOKEN = os.getenv('TOKEN')
 
+REDDIT_CLIENT_ID = os.getenv('REDDIT_CLIENT_ID')
+REDDIT_CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET')
+
 Owner_ID = 324786471678771200
 
 BOT_PREFIX = '!'
