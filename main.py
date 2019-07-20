@@ -1,4 +1,4 @@
-import discord, asyncio, youtube_dl, random
+import discord, asyncio, youtube_dl, random, os
 from discord.ext import commands
 from discord.voice_client import VoiceClient
 from requests import get
