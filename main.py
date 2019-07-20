@@ -7,6 +7,7 @@ import time as timelibrary
 from datetime import date
 from iso639 import languages
 from langdetect import detect
+import praw
 
 client = commands.Bot(command_prefix=BOT_PREFIX)
 client.remove_command('help')
