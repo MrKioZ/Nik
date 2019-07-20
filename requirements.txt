@@ -1,7 +1,0 @@
-discord.py
-discord.py[voice]
-requests
-youtube_dl
-langdetect
-iso-639
-praw
