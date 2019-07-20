@@ -1,3 +1,4 @@
+import os
 TOKEN = os.getenv('TOKEN')
 
 Owner_ID = 324786471678771200
