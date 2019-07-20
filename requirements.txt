@@ -1,2 +1,7 @@
 discord.py
 discord.py[voice]
+requests
+asnycio
+youtube_dl
+langdetect
+iso-639
