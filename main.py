@@ -213,6 +213,23 @@ async def help(ctx):
     embed.set_footer(text='This bot was made by ' + the_creator.name+"#"+the_creator.discriminator)
     await ctx.send(embed=embed)
 
+@client.command(name='meme', pass_context=True)
+async def meme(ctx):
+    subreddits = ['memes','wholesomememes','whoooosh','dankmemes','funny']
+    subreddit = random.choice(subreddits)
+
+    reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID,client_secret=REDDIT_CLIENT_SECRET,user_agent= 'prawagent')
+
+    submissions = []
+    for submission in reddit.subreddit(subreddit).hot(limit=25):
+        if submission.url.endswith('jpg') or submission.url.endswith('png'):
+            submissions.append(submission)
+
+    submission = random.choice(submissions)
+
+    embed = discord.Embed(color=EMBED_COLOR, title=submission.title)
+    embed.set_image(url=submission.url)
+    await ctx.send(embed=embed)
 
 @client.command(pass_context=True)
 async def langdetect(ctx):
